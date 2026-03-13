@@ -16,9 +16,11 @@
 
       <section id="activities-container">
         <h3>Available Activities</h3>
-        <div id="activity-filters" style="margin-bottom: 16px;">
-          <input type="text" id="activity-search" placeholder="Search activities..." style="padding: 6px; width: 60%; max-width: 250px; margin-right: 10px;" />
-          <select id="activity-sort" style="padding: 6px;">
+        <div id="activity-filters">
+          <label for="activity-search">Search:</label>
+          <input type="text" id="activity-search" placeholder="Search activities..." />
+          <label for="activity-sort">Sort:</label>
+          <select id="activity-sort">
             <option value="name">Sort by Name</option>
             <option value="availability">Sort by Availability</option>
           </select>
